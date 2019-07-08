@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: aquamarine;
+}
+.corpo{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    border-top-left-radius: 20%;
+    border-top-right-radius:20%;
+    background-color: yellow;
+}
+.oculos{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    position: relative;
+    background-color: grey;
+}
+.olho{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    margin: 0 0 0 10px;
+    background-color: white;
+    z-index: 10;
+}
+.retina{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    background-color: brown;
+    z-index: 20;
+}
+.oculos, .olho, .retina{
+    border-radius: 50%;
+}
